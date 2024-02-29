@@ -2,7 +2,7 @@
 members = [
     "src/backend_1",
     "src/backend_2",
-    "src/manager",
+      "src/manager",
 ]
 
 [workspace.dependencies]
