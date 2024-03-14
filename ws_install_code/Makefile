@@ -1,6 +1,6 @@
 .PHONY: build build build_by_manual
 
-build:
+build: 
 	dfx stop && dfx start --clean --background
 	dfx canister create --all
 	dfx build --all
